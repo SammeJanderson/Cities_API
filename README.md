@@ -3,7 +3,8 @@
 ## Technnologies
 
 + Java 11
-+ Gradle	
++ Gradle
++ Docker	
 + Spring boot 2.3.4
 	+ Spring Web
 	+ Spring Data JPA
