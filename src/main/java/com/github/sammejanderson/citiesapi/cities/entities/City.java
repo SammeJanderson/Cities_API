@@ -32,7 +32,7 @@ public class City {
     private String geoLocation;
 
     //2nd
-    @Type(type="point")
+    @Type(type = "point")
     @Column(name = "lat_lon", updatable = false, insertable = false)
     private Point location;
 

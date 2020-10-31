@@ -32,7 +32,7 @@ public class CountyResource {
         if (optional.isPresent()) {
             return ResponseEntity.ok().body(optional.get());
 
-        }else  {
+        } else {
             return ResponseEntity.notFound().build();
         }
 

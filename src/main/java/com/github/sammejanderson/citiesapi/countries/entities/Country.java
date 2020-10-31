@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "pais")
-public class  Country {
+public class Country {
 
     @Id
     private Long id;

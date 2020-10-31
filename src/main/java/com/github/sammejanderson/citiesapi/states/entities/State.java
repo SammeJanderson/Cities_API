@@ -2,7 +2,6 @@ package com.github.sammejanderson.citiesapi.states.entities;
 
 import com.github.sammejanderson.citiesapi.countries.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
-import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
@@ -31,7 +30,6 @@ public class State {
     @ManyToOne
     @JoinColumn(name = "pais", referencedColumnName = "id")
     private Country country;
-
 
 
     @Type(type = "jsonb")
