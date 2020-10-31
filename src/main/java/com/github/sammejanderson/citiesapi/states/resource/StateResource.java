@@ -26,18 +26,6 @@ public class StateResource {
         return stateRepository.findAll(page);
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity getStateByID(@PathVariable Long id){
-        Optional<State> optional = stateRepository.findById(id);
 
-        if (optional.isPresent()){
-            return ResponseEntity.ok().body(optional.get());
-        }else {
-            return ResponseEntity.notFound().build();
-        }
-
-
-
-    }
 
 }
