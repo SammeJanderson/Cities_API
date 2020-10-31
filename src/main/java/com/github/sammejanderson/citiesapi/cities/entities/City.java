@@ -40,43 +40,28 @@ public class City {
     public City() {
     }
 
+
     public Long getId() {
         return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Integer getUf() {
         return uf;
-    }
-
-    public void setUf(Integer uf) {
-        this.uf = uf;
     }
 
     public Integer getIbge() {
         return ibge;
     }
 
-    public void setIbge(Integer ibge) {
-        this.ibge = ibge;
-    }
-
     public String getGeoLocation() {
         return geoLocation;
     }
 
-    public void setGeoLocation(String geoLocation) {
-        this.geoLocation = geoLocation;
+    public Point getLocation() {
+        return location;
     }
 }
